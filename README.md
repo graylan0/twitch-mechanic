@@ -20,7 +20,7 @@ https://www.youtube.com/watch?v=9umfIea238k
 [![Install Video](https://img.youtube.com/vi/9umfIea238k/0.jpg)](https://www.youtube.com/watch?v=9umfIea238k)
 
 (download the files using github/zip or use git clone if you have git installed)
-### Windows / Linux
+### Windows / Linux / Mac
 ```
 required pips
 
