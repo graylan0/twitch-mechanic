@@ -28,7 +28,10 @@ pip install uvicorn-loguru-integration
 pip install uvicorn
 pip install fastapi
 ```
-
+   https://www.anaconda.com/download (anaconda dl)
+   https://www.youtube.com/watch?v=YJC6ldI3hWk (how to install anacdona if you need it)
+   https://www.youtube.com/watch?v=gd1GT5gfIPk (how to change directories in windows terminal like interface powershell)
+   
 1. Set up a virtual environment or install python natively (either way works) . Then navigate to the directoy storing the local code using the CD command (example cd C:\bot)  ( use the cd command ) 
    ```
    https://www.anaconda.com/download
