@@ -13,10 +13,8 @@ AI Mechanic Designed For Twitch Chatrooms
 ## Setup
 
 
-I suggest to watch the entire installation video to understand.
-Installation Video
-https://www.youtube.com/watch?v=9umfIea238k
-
+I created an install video going over the requirements. 
+Below is a 3 minute install video for the program.
 [![Install Video](https://img.youtube.com/vi/9umfIea238k/0.jpg)](https://www.youtube.com/watch?v=9umfIea238k)
 
 (download the files using github/zip or use git clone if you have git installed)
