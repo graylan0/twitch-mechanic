@@ -16,7 +16,7 @@ This project is a standard Python package and can be installed via `pip`. View b
 Installation Video:
 https://www.youtube.com/watch?v=9umfIea238k
 
-[![Install Video]([https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg](https://i9.ytimg.com/vi/9umfIea238k/mqdefault.jpg?sqp=CPDznKgG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgUChDMA8%3D&rs=AOn4CLB5YHnUrdv8Bla5t8Us57eRBef-FQ&retry=6))]([https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE](https://www.youtube.com/watch?v=9umfIea238k))
+[![Install Video](https://img.youtube.com/vi/9umfIea238k/0.jpg)](https://www.youtube.com/watch?v=9umfIea238k)
 
 ### Windows / Linux
 ```
