@@ -38,7 +38,7 @@ pip install fastapi
 
 2. Install the package in editable mode with development dependencies:
    ```powershell
-   pip install ."
+   pip install .
    ```
 3. Edit the config.json and grab a twitch 0auth token as well as OpenaiAPI key using the processes below to fill in the config.json file:
    
