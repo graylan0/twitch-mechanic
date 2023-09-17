@@ -29,10 +29,12 @@ pip install uvicorn
 pip install fastapi
 ```
 
-1. Set up a virtual environment or install python natively and navigate to the directoy storing the local code. ( use the cd command ) after opening an anconda prompt:
+1. Set up a virtual environment or install python natively (either way works) . Then navigate to the directoy storing the local code using the CD command (example cd C:\bot)  ( use the cd command ) 
    ```
    https://www.anaconda.com/download
-   https://www.youtube.com/watch?v=YJC6ldI3hWk
+   https://www.youtube.com/watch?v=YJC6ldI3hWk (*how to install anaconda virtual enviroments if you don't want to use powershell
+
+   How to use CD with powershell to navigate directories https://www.youtube.com/watch?v=gd1GT5gfIPk
    download and install anaconda then open an anaconda terminal window with anaconda prompt
    ```
 
