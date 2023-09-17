@@ -1,5 +1,5 @@
 # Twitch Mechanic
-*An AI Mechanic Designed For Twitcjh Chatrooms
+AI Mechanic Designed For Twitch Chatrooms
 
 
 
