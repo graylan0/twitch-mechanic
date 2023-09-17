@@ -9,15 +9,17 @@ AI Mechanic Designed For Twitch Chatrooms
 2. Openai
 3. Fastapi
 4. Uvicorn
+   
 ## Setup
 
-This project is a standard Python package and can be installed via `pip`. View below for more specific instructions. We used Python 3.11 for this project as well as an Nvidia A4500
 
-Installation Video:
+I suggest to watch the entire installation video to understand.
+Installation Video
 https://www.youtube.com/watch?v=9umfIea238k
 
 [![Install Video](https://img.youtube.com/vi/9umfIea238k/0.jpg)](https://www.youtube.com/watch?v=9umfIea238k)
 
+(download the files using github/zip or use git clone if you have git installed)
 ### Windows / Linux
 ```
 required pips
