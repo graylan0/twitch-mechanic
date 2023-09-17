@@ -47,9 +47,9 @@ pip install fastapi
    ```
 3. Edit the config.json and grab a twitch 0auth token as well as OpenaiAPI key using the processes below to fill in the config.json file:
    
-   https://twitchtokengenerator.com/ get token here for twitch
+   https://twitchtokengenerator.com/ get token here for the twitch configuration inside config.json
 
-   https://platform.openai.com/account/api-keys get api keys for openai here
+   https://platform.openai.com/account/api-keys get api keys for openai for the openai configuration inside config.json
 
    then put them inside the config.json.
 
