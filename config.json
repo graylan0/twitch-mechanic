@@ -1,0 +1,10 @@
+{
+    "twitch": {
+        "clientkey":"oauth:BOTTOKENHERE",
+        "hostchannel":"freedomdao",
+        "username":"freedomdao"
+    },
+    "openai": {
+        "api_key": "OPENAIAPIKEHERE"
+    }
+}
