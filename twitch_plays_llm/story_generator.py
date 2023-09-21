@@ -1,14 +1,16 @@
 import openai
 import json
+import sqlite3
 from asgiref.sync import sync_to_async
 from .models import StoryEntry
 from .trideque import TriDeque
+
 class StoryGenerator:
     MAX_PAST_ENTRIES = 100  # maximum number of past entries to store in memory
 
     def __init__(self, character_memory):
         self.character_memory = character_memory
-        self.past_story_entries = TriDeque(self.MAX_PAST_ENTRIES)  # Initialize a TriDeque with a size of MAX_PAST_ENTRIES
+        self.past_story_entries = TriDeque(self.MAX_PAST_ENTRIES)
         self.job_config = self.load_job_config()
         initial_prompt = self.construct_initial_prompt()
         self.past_story_entries.push(
@@ -59,21 +61,28 @@ class StoryGenerator:
 
     @sync_to_async
     def generate_next_story_narration(self, story_action: str):
-        """Generates the continuation of lineage given a user's action"""
-        response = openai.ChatCompletion.create(
-            model='gpt-3.5-turbo',
-            messages=self.construct_prompt_messages(story_action),
-        )
+        try:
+            response = openai.ChatCompletion.create(
+                model='gpt-3.5-turbo',
+                messages=self.construct_prompt_messages(story_action),
+            )
+        except Exception as e:
+            print(f"OpenAI API Error: {e}")
+            return None
+
         next_narration = response['choices'][0]['message']['content']
         self.past_story_entries.push(
-            StoryEntry(story_action=story_action,
-                       narration_result=next_narration)
+            StoryEntry(
+                story_action=story_action,
+                narration_result=next_narration
+            )
         )
+
+ 
         return next_narration
 
-
     def reset(self):
-        self.past_story_entries = TriDeque(self.MAX_PAST_ENTRIES)  # Reset it before calling construct_initial_prompt
+        self.past_story_entries = TriDeque(self.MAX_PAST_ENTRIES)
         initial_prompt = self.construct_initial_prompt()
         self.past_story_entries.push(
             StoryEntry(
