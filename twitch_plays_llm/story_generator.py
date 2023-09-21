@@ -63,7 +63,7 @@ class StoryGenerator:
     def generate_next_story_narration(self, story_action: str):
         try:
             response = openai.ChatCompletion.create(
-                model='gpt-3.5-turbo',
+                model='gpt-3.5-turbo-16k',
                 messages=self.construct_prompt_messages(story_action),
             )
         except Exception as e:
