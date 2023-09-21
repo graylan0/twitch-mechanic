@@ -162,7 +162,7 @@ class LlmTwitchBot(commands.Bot, LlmGameHooks):
             )
 
             response = openai.ChatCompletion.create(
-                model="gpt-3.5-turbo",
+                model="gpt-3.5-turbo-16k",
                 messages=[
                     {"role": "system", "content": "You are the AI moderator for the Mechanic JobHat community."},
                     {"role": "user", "content": f"{prompt}"}
