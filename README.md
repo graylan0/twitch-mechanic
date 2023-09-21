@@ -9,6 +9,8 @@ AI Mechanic Designed For Twitch Chatrooms
 2. Openai
 3. Fastapi
 4. Uvicorn
+5. Sqlite3
+6. Custom OpenAI Thread Moderation (two layer)
    
 ## Setup
 
