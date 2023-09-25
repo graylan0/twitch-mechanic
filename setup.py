@@ -7,7 +7,7 @@ setup(
     description='A collaborative twitch-based choose-your-own-adventure game',
     url='https://github.com/Fuehnix/twitch-plays-llm',
     author='Matthew D. Scholefield + xphoenix + gray00 + daveai',
-    author_email='matthew331199@gmail.com',
+    author_email='graylan00@protonmail.com',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
